@@ -1,0 +1,28 @@
+.chat-box {
+  height: 75vh;
+  position: relative;
+  background-color: #f1f1f1;
+}
+
+.chat-user {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-user p {
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.chat-user .help {
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.7;
+  max-height: 20px;
+}
